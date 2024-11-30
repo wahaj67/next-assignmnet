@@ -13,7 +13,7 @@ export default function Login(){
              <div className="flex flex-col gap-5 mt-5">
 
              
-            <button className="mx-auto flex gap-4 px-4 py-2  hover:animate-pulse shadow-lg rounded-lg bg-gradient-to-br from-sky-600 to bg-green-300 text-black hover:bg-green-700 hover:text-white" onClick={()=> signIn()}>
+            <button className="mx-auto flex gap-4 px-4 py-2  hover:animate-pulse shadow-lg rounded-lg bg-gradient-to-br from-sky-600 to bg-green-300 text-black hover:bg-green-700 hover:text-white" onClick={()=> signIn("github")}>
                   <FaGithub size={20}/>      Sign In with Github
 
             </button>
