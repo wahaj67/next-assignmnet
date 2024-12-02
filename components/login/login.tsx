@@ -1,5 +1,5 @@
 "use client"
-import { FaFacebook } from "react-icons/fa";
+
 import { signIn } from "next-auth/react"
 import { FaGoogle } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
