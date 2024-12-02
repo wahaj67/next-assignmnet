@@ -17,7 +17,7 @@ export default function Login(){
                   <FaGithub size={20}/>      Sign In with Github
 
             </button>
-            <button className="mx-auto flex gap-4 px-4 py-2 hover:animate-pulse shadow-lg rounded-lg bg-gradient-to-br from-sky-600 to bg-green-300 text-black hover:bg-green-700 hover:text-white" onClick={()=>signIn("google")}>
+            <button className="mx-auto flex gap-4 px-4 py-2 hover:animate-pulse shadow-lg rounded-lg bg-gradient-to-br from-sky-600 to bg-green-300 text-black hover:bg-green-700 hover:text-white" onClick={()=>signIn()}>
              <FaGoogle size={20}/>   Sign In with Google 
             </button>
             {/* <button  className="mx-auto gap-2 flex px-4 py-2 hover:animate-pulse shadow-lg rounded-lg bg-gradient-to-br from-sky-600 to bg-green-300 text-black
